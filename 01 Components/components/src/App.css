@@ -1,0 +1,19 @@
+body {
+  background-color: #111;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 100px;
+  color: #fff;
+  background-color:seagreen;
+}
+.right a {
+  text-decoration: none;
+  color: #fff;
+  padding: 0 30px;
+}
+h1{
+  color: #fff;
+}

@@ -1,0 +1,112 @@
+[
+  {
+    "company": "Amazon",
+    "logo": "https://logo.clearbit.com/amazon.com",
+    "posted": "5 days ago",
+    "job_title": "Senior UI/UX Designer",
+    "job_type": "Part-Time",
+    "experience_level": "Senior Level",
+    "salary": "$120/hr",
+    "location": "Mumbai, India",
+    "saved": false
+  },
+  {
+    "company": "Google",
+    "logo": "https://logo.clearbit.com/google.com",
+    "posted": "2 days ago",
+    "job_title": "Frontend Engineer",
+    "job_type": "Full-Time",
+    "experience_level": "Mid Level",
+    "salary": "$95/hr",
+    "location": "Hyderabad, India",
+    "saved": false
+  },
+  {
+    "company": "Microsoft",
+    "logo": "https://logo.clearbit.com/microsoft.com",
+    "posted": "1 week ago",
+    "job_title": "Cloud  Architect",
+    "job_type": "Remote",
+    "experience_level": "Senior Level",
+    "salary": "$150/hr",
+    "location": "Bangalore, India",
+    "saved": true
+  },
+  {
+    "company": "Netflix",
+    "logo": "https://logo.clearbit.com/netflix.com",
+    "posted": "3 days ago",
+    "job_title": "Product Designer",
+    "job_type": "Contract",
+    "experience_level": "Junior Level",
+    "salary": "$80/hr",
+    "location": "Mumbai, India",
+    "saved": false
+  },
+  {
+    "company": "Tesla",
+    "logo": "https://logo.clearbit.com/tesla.com",
+    "posted": "6 days ago",
+    "job_title": "Software Engineer",
+    "job_type": "Full-Time",
+    "experience_level": "Mid Level",
+    "salary": "$110/hr",
+    "location": "Delhi, India",
+    "saved": false
+  },
+  {
+    "company": "Spotify",
+    "logo": "https://logo.clearbit.com/spotify.com",
+    "posted": "4 hours ago",
+    "job_title": "UI Designer",
+    "job_type": "Remote",
+    "experience_level": "Junior Level",
+    "salary": "$70/hr",
+    "location": "Remote",
+    "saved": true
+  },
+  {
+    "company": "Zomato",
+    "logo": "https://logo.clearbit.com/zomato.com",
+    "posted": "2 weeks ago",
+    "job_title": "Backend Developer",
+    "job_type": "Full-Time",
+    "experience_level": "Senior Level",
+    "salary": "$105/hr",
+    "location": "Pune, India",
+    "saved": false
+  },
+  {
+    "company": "Meta",
+    "logo": "https://logo.clearbit.com/meta.com",
+    "posted": "1 day ago",
+    "job_title": "AI Engineer",
+    "job_type": "Full-Time",
+    "experience_level": "Senior Level",
+    "salary": "$180/hr",
+    "location": "Bangalore, India",
+    "saved": true
+  },
+  {
+    "company": "Flipkart",
+    "logo": "https://logo.clearbit.com/flipkart.com",
+    "posted": "7 days ago",
+    "job_title": "Mobile App Developer",
+    "job_type": "Remote",
+    "experience_level": "Mid Level",
+    "salary": "$90/hr",
+    "location": "Remote",
+    "saved": false
+  },
+  {
+    "company": "Apple",
+    "logo": "https://substackcdn.com/image/fetch/$s_!G1lk!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8ed3d547-94ff-48e1-9f20-8c14a7030a02_2000x2000.jpeg",
+    "posted": "8 days ago",
+    "job_title": "Graphic Designer",
+    "job_type": "Contract",
+    "experience_level": "Junior Level",
+    "salary": "$65/hr",
+    "location": "Chennai, India",
+    "saved": false
+  }
+]

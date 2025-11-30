@@ -1,0 +1,28 @@
+
+
+.inputbox{
+  padding: 8px;
+  font-size: 18px;
+}
+
+.box{
+  height: 300px;
+  width: 300px;
+  background-color: pink;
+}
+
+.page1{
+  background-color: #000;
+  height: 100vh;
+  width: 100%;
+}
+.page2{
+  background-color: #ccc;
+  height: 100vh;
+  width: 100%;
+}
+.page3{
+  background-color: #7d6262;
+  height: 100vh;
+  width: 100%;
+}

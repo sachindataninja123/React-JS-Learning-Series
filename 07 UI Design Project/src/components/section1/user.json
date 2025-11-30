@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "title": "Confident",
+    "image": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cHJvZmVzc2lvbmFsfGVufDB8fDB8fHww",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+    "themeColor": "#4169E1"
+  },
+  {
+    "id": 2,
+    "title": "Professional",
+    "image": "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg",
+    "description": "Quasi earum, impedit laborum laboriosam hic iste minima soluta.",
+    "themeColor": "#000000"
+  },
+  {
+    "id": 3,
+    "title": "Motivated",
+    "image": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cHJvZmVzc2lvbmFsfGVufDB8fDB8fHww",
+    "description": "Praesentium debitis earum iste facere voluptates veritatis fuga magni.",
+    "themeColor": "#FF9500"
+  },
+  {
+    "id": 4,
+    "title": "Focused",
+    "image": "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg",
+    "description": "Nisi pariatur sint quaerat id consequatur perspiciatis vero molestias.",
+    "themeColor": "#2ECC71"
+  },
+  {
+    "id": 5,
+    "title": "Ready",
+    "image": "https://images.pexels.com/photos/842567/pexels-photo-842567.jpeg",
+    "description": "Error alias culpa quasi, ab fugiat non vero, exercitationem laboriosam.",
+    "themeColor": "#F39C12"
+  },
+  {
+    "id": 6,
+    "title": "Determined",
+    "image": "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg",
+    "description": "Voluptates recusandae minus facere, corporis perspiciatis esse adipisci.",
+    "themeColor": "#9B59B6"
+  },
+  {
+    "id": 7,
+    "title": "Serious",
+    "image": "https://images.pexels.com/photos/834863/pexels-photo-834863.jpeg",
+    "description": "Dolor asperiores debitis sunt accusantium quis maiores exercitationem.",
+    "themeColor": "#2C3E50"
+  },
+  {
+    "id": 8,
+    "title": "Ambitious",
+    "image": "https://images.pexels.com/photos/2379006/pexels-photo-2379006.jpeg",
+    "description": "Harum saepe suscipit doloribus cumque vel laborum odio earum incidunt.",
+    "themeColor": "#E74C3C"
+  },
+  {
+    "id": 9,
+    "title": "Calm",
+    "image": "https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg",
+    "description": "Accusantium officiis quasi nemo amet suscipit minima assumenda illum.",
+    "themeColor": "#3498DB"
+  },
+  {
+    "id": 10,
+    "title": "Bold",
+    "image": "https://images.pexels.com/photos/2379007/pexels-photo-2379007.jpeg",
+    "description": "Officiis quo molestiae voluptas, natus placeat a at illum dignissimos facere.",
+    "themeColor": "#D35400"
+  }
+]
