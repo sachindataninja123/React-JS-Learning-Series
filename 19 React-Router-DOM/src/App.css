@@ -1,0 +1,36 @@
+h1 {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  font-size: 70px;
+  white-space: nowrap;
+  text-decoration: underline;
+  color: #ffffff;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 60px;
+  color: #ffffff;
+  background-color: rgb(46, 93, 112);
+}
+.nav-left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+.nav-left a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 20px;
+  transition: 0.22s all ease;
+}
+.nav-left a:hover {
+  color: rgb(183, 187, 43);
+  text-decoration: underline;
+  transition: 0.2s all ease;
+}
