@@ -2,15 +2,28 @@ import React from "react";
 import SearchBar from "../components/SearchBar";
 import Tabs from "../components/Tabs";
 import ResultGrid from "../components/ResultGrid";
+import { useSelector } from "react-redux";
+import Navbar from "../components/Navbar";
 
 const HomePage = () => {
+  const { query } = useSelector((store) => store.search);
+
   return (
-    <div>
-        <div className="text-center p-5 bg-blue-900 text-2xl font-semibold">Media Search</div>
-      <SearchBar />
-      <Tabs />
-      <ResultGrid />
-    </div>
+    <>
+      <Navbar />
+
+      <div>
+        <SearchBar />
+        {query !== "" ? (
+          <div>
+            <Tabs />
+            <ResultGrid />
+          </div>
+        ) : (
+          ""
+        )}
+      </div>
+    </>
   );
 };
 

@@ -7,7 +7,7 @@ import { Routes,Route } from "react-router-dom";
 const App = () => {
   return (
     <div>
-      <div className="h-screen w-full bg-gray-950 text-white">
+      <div className="min-h-screen w-full bg-gray-950 text-white">
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/collection" element={<CollectionPage />} />
