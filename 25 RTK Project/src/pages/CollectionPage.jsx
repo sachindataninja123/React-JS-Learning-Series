@@ -22,7 +22,7 @@ const CollectionPage = () => {
       <Navbar />
       {collection.length > 0 ? (
         <div className="flex items-center justify-between px-6 py-3">
-          <h2 className="text-3xl font-semibold pl-4">Your Collection</h2>
+          <h2 className="lg:text-3xl font-semibold lg:pl-4 text-2xl">Your Collection</h2>
           <button
             onClick={(item) => clearFromCollection(item)}
             className="px-5 py-2 text-lg bg-red-500 rounded active:scale-95 cursor-pointer "
@@ -31,11 +31,24 @@ const CollectionPage = () => {
           </button>
         </div>
       ) : (
-        <h2 className="text-4xl text-center font-semibold m-3">
+        <h2 className="lg:text-4xl text-center font-semibold m-3 text-2xl">
           Collection is Empty
         </h2>
       )}
-      <div className="flex flex-wrap w-full justify-start gap-6 overflow-auto px-4 py-6">
+      <div
+        className="
+  w-full
+  grid
+  gap-6
+  pb-6
+  px-4
+  grid-cols-1
+  sm:grid-cols-2
+  md:grid-cols-3
+  lg:grid-cols-4
+  xl:grid-cols-5
+"
+      >
         {collection.map((item, idx) => {
           return (
             <div key={idx}>

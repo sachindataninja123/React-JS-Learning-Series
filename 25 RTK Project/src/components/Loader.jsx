@@ -4,7 +4,7 @@ const Loader = () => {
   return (
     <div>
     
-<div className="flex-col gap-4 mt-15 w-full flex items-center justify-center">
+<div className="flex-col gap-4 mt-20 w-full flex items-center justify-center">
   <div
     className="w-20 h-20 border-4 border-transparent text-blue-400 text-4xl animate-spin flex items-center justify-center border-t-blue-400 rounded-full"
   >

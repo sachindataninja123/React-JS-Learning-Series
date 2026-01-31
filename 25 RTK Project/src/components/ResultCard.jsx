@@ -12,13 +12,13 @@ const ResultCard = ({ item }) => {
   };
 
   return (
-    <div className="w-[18vw] relative h-80 bg-white rounded-xl overflow-hidden">
-      <div className="h-full">
+    <div className="relative w-full h-72 sm:h-80 bg-white rounded-xl overflow-hidden shadow">
+      <div className="h-full w-full">
         {item.type === "photo" ? (
           <img
             className="h-full w-full object-cover object-center"
             src={item.src}
-            alt=""
+            alt={item.title}
           />
         ) : (
           ""

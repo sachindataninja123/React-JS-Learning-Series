@@ -9,13 +9,13 @@ const CollectionCard = ({ item }) => {
   const dispatch = useDispatch();
 
   const removeFromCollection = (item) => {
-    dispatch(removeCollection(item.id));
+    dispatch(removeCollection(item));
     dispatch(removeToast());
   };
 
   return (
     <div>
-      <div className="w-[18vw] relative h-80 bg-white rounded-xl overflow-hidden">
+      <div className="relative w-full h-72 sm:h-80 bg-white rounded-xl overflow-hidden shadow">
         <div className="h-full">
           {item.type === "photo" ? (
             <img
