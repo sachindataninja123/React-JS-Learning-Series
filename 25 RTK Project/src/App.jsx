@@ -2,7 +2,8 @@ import React, { useEffect } from "react";
 import "./App.css";
 import HomePage from "./pages/HomePage";
 import CollectionPage from "./pages/CollectionPage";
-import { Routes,Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
+import { ToastContainer, toast } from "react-toastify";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
           <Route path="/collection" element={<CollectionPage />} />
         </Routes>
       </div>
+      <ToastContainer />
     </div>
   );
 };

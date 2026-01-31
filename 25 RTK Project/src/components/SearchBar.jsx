@@ -27,7 +27,7 @@ const SearchBar = () => {
           onChange={(e) => setSearch(e.target.value)}
           placeholder="Search anything..."
         />
-        <button className="border-2 px-4 py-2 text-xl rounded bg-blue-400 text-black outline-none cursor-pointer active:scale-95">
+        <button className="border-2 px-4 py-2 text-xl rounded  font-semibold bg-blue-600 text-white outline-none border-none cursor-pointer active:scale-95">
           Search
         </button>
       </form>

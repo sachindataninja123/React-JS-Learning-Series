@@ -8,6 +8,7 @@ const Tabs = () => {
   const dispatch = useDispatch();
 
   const activeTab = useSelector((state) => state.search.activeTab);
+  console.log(activeTab)
 
   return (
     <div className="flex items-center gap-7 m-5 ">

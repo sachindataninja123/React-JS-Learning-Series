@@ -8,6 +8,7 @@ import {
 } from "../redux/features/searchSlice";
 import { useDispatch, useSelector } from "react-redux";
 import ResultCard from "./ResultCard";
+import Loader from "./Loader";
 
 const ResultGrid = () => {
   const { query, activeTab, results, loading, error } = useSelector(
@@ -20,6 +21,7 @@ const ResultGrid = () => {
     if (!query) return;
     const getData = async () => {
       try {
+        dispatch(setLoading())
         let data = [];
         if (activeTab === "Photos") {
           let response = await fetchPhotos(query);
@@ -53,7 +55,7 @@ const ResultGrid = () => {
   }, [query, activeTab,dispatch]);
 
   if (error) return <h1>Error</h1>;
-  if (loading) return <h1>Loading...</h1>;
+  if (loading) return <Loader />;
 
   return (
     <div className="flex flex-wrap w-full justify-center gap-6 overflow-auto pb-6 ">
