@@ -9,7 +9,7 @@ const CollectionCard = ({ item }) => {
   const dispatch = useDispatch();
 
   const removeFromCollection = (item) => {
-    dispatch(removeCollection(item));
+    dispatch(removeCollection(item.id));
     dispatch(removeToast());
   };
 
